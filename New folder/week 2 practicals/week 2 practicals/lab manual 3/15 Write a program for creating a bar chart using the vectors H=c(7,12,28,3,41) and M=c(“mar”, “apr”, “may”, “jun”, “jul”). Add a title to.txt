@@ -1,0 +1,18 @@
+# Install and load the required package
+# install.packages("ggplot2")
+library(ggplot2)
+
+# Data vectors
+H <- c(7, 12, 28, 3, 41)
+M <- c("mar", "apr", "may", "jun", "jul")
+
+# Create a data frame
+df <- data.frame(Month = M, Revenue = H)
+
+# Create the bar chart
+bar_chart <- ggplot(df, aes(x = Month, y = Revenue, fill = Month)) +
+  geom_bar(stat = "identity", width = 0.5) +
+  labs(title = "Revenue Chart")
+
+# Display the bar chart
+print(bar_chart)

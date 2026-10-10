@@ -1,0 +1,7 @@
+data<-read.csv("travel-times.csv")
+print(is.data.frame(data))
+print(ncol(data))
+print(nrow(data))
+a<-max(data$AvgSpeed)
+print(a)
+print(subset(data,Distance==51.29))

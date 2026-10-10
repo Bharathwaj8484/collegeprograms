@@ -1,0 +1,10 @@
+v<-c(12,21,11,-3,5)
+min<-2
+max<-10
+size<-length(v)
+sum<-0
+for(i in 1:size)
+  if(v[i]>=min && v[i]<=max)
+    sum<-sum+1
+print(sum)
+

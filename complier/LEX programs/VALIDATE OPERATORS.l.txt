@@ -1,0 +1,18 @@
+%{
+#include<stdio.h>
+%}
+
+%%
+"+" { printf("Operator: +\n"); }
+"-" { printf("Operator: -\n"); }
+"*" { printf("Operator: *\n"); }
+"/" { printf("Operator: /\n"); }
+.   { printf("Invalid operator\n"); }
+
+%%
+
+int main(void)
+{
+    yylex();
+    return 0;
+}

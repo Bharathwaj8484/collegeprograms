@@ -1,0 +1,16 @@
+%{
+#include<stdio.h>
+#include<ctype.h>
+%}
+
+%%
+[a-zA-Z][a-zA-Z0-9]* { printf("Valid identifier\n"); }
+.                  { printf("Invalid identifier\n"); }
+
+%%
+
+int main(void)
+{
+    yylex();
+    return 0;
+}

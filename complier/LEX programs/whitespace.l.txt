@@ -1,0 +1,28 @@
+%{
+#include<stdio.h>
+int whitespaces = 0;
+int newlines = 0;
+%}
+
+%%
+" "  { ++whitespaces; }
+"\n" { ++newlines; }
+.    { /* ignore */ }
+
+%%
+
+int main(void)
+{
+   
+    printf("enter string");
+    yylex();
+    printf("Whitespaces: %d\n", whitespaces);
+    printf("Newlines: %d\n", newlines);
+    return 0;
+}
+
+int yywrap()
+{
+return 1;
+}
+
