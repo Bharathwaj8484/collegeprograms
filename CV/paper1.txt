@@ -1,0 +1,126 @@
+paper1
+Given a geometric camera model, explain how you can calculate the 3D world (10) (CO1) (BL3)
+coordinates of a point from its 2D image coordinates.
+
+Design an improved edge detection algorithm that overcomes the limitations of the (10) (CO2) (BL.3)
+Canny edge detector.
+
+(a). Explain the concept of snakes and active contours and their applications in image (10) (CO3) (BL2)
+processing. (5 Marks)
+(b). Describe how the level set representation is used in image segmentation tasks and
+how it handles complex object boundaries. (5 Marks)
+
+List and briefly describe three essential pattern recognition algorithms used in computer (10) (CO4) (BL3
+vision. Provide examples of scenarios where each algorithm finds application.
+
+Let O denote the homogeneous coordinate vector of the optical center of a camera in (10) (CO1) (BL3
+some reference frame, and let M denote the corresponding perspective projection matrix.
+Show that MO =0. Explain why this intuitively makes sense.
+
+Solve the following using Harris Corner Detection.
+0 0 1 4 9
+1 0 5 7 11
+1 4 9 12 16
+3 8 11 14 16
+8 10 15 16 20
+
+
+7 Implement a region-based representation technique for image segmentation and evaluate (10) (CO3) (BL4)
+its accuracy using appropriate evaluation metrics.
+
+8 Evaluate the effectiveness of texture segmentation methods in computer vision. Compare (10) (CO4) (BL3)
+and contrast different texture segmentation algorithms, discussing their strengths and
+limitations.
+
+9 Explain the concept of feature extraction in convolutional neural networks and its (10) (CO5) (BL3)
+importance in computer vision tasks.
+
+Explain the concept of attention mechanisms in convolutional neural networks for image
+processing. Analyze how attention mechanisms improve model performance and discuss
+their applications in computer vision tasks. (10) (CO5) (BL4)
+
+***********************************************
+paper 2
+Analyze the challenges and limitations of Binoeular Imaging Systems In depth 
+perception and stereo correspondence.Explain the factors that contribute to
+overcoming these limitations and expanding the capabilities of binocular imaging
+
+a. Compare various edge detection algorithms based on their strengths and weakness as a table (Co2)
+(b). Discuss the importance of regularization in motion estimation and its impact on
+accuracy and robustness. (5 Marks)
+
+Implement a region-based representation technique for image segmentation and (10) (CO3) (b
+evaluate its accuracy using appropriate evaluation metrics.
+
+4. Explain the fundamental concept of linear filtering in image processing. Discuss (10) (CO4) (BL
+how convolution operations are utilized for linear filtering and the significance of
+kernel masks in modifying image features.
+
+5. Derive the perspective equation projections for a virtual image located at a distance (10) (CO1) (BL3)
+d in front of the pinhole.
+
+6 (a).Implement a Gaussian blur algorithm for image smoothing using a programming (10) (CO2) (BL3)
+language of your choice. (5 Marks)
+(b). Implement a stereo vision system to estimate the depth of objects in a 3D scene
+from a pair of images. (5 Marks)
+
+7 Apply a Harris corner approach to extract the corner of objects in an image and (10) (CO3) (BL4)
+analyze its performance on different object types. Solve the following using Harris
+Corner Detection.
+
+Design a custom 4x4 Gaussian blur kernel matrix for image smoothing. Apply te (10) (CO4) (BL3)
+designed kemel to a given image and discuss the effects of the kernel size on
+blurring intensity.
+
+9 Explain the role of computer vision in augmented reality experiences. Discuss how (10) (CO5) (BL3)
+computer vision enhances virtual overlays onto the real world and impacts uer
+interaction.
+
+10 Apply feature detection algorithms in OpenCV to detect and match keypoius (10) (CO5) (BL4)
+between two images. Discuss the process and parameters involved in keypont
+matching.
+
+
+***************************************
+paper 3
+
+Derive the weak perspective projection equation from the standard perspective (10) (CO1) (BL2)
+projection model. Discuss the limitations of weak perspective projection compared
+to the full perspective projection.
+
+Describe the concept of model fitting and its importance in computer vision (10) (CO2) (BL2)
+algorithms.
+
+Apply Clustering based Segmentation to image compression and discuss how the (10) (CO3) (BL2)
+technique achieves efficient compression with minimal loss of information.
+
+Recall and list five key components required for implementing computer vision in (10) (CO4) (BL2)
+self-driving cars. Explain the role of each component in enhancing vehicle
+autonomy.
+
+Given a set of 2D image points and their corresponding 3D world coordinates, (10) (CO1) (BL3)
+perform linear camera calibration.
+
+Using Hough transform shows that the following points are collinear and also find (10) (CO2) (BL3)
+the equation of line (1,2) (2,3) (3,4).
+
+For edge detection in computer vision, apply Canny and Sobel Operators Mask for (10) (CO3) (BL4)
+the given image.
+20 50 20
+20 50 20
+20 50 20
+
+8 Apply computer vision solutions in retail settings for customer behavior analysis. (10) (CO4) (BL3)
+Discuss how image recognition and tracking can enhance customer engagement or
+marketing strategies.
+
+Describe the process of max-pooling and its role in downsampling feature maps in (10) (CO5) (BL3)
+CNNs for image processing.
+
+10 Investigate the advancements and challenges in deploying deep learning models for (10) (CO5) (BL4)
+real-time processing in embedded systems for applications like robotics and IoT
+devices. Discuss performance trade-offs and optimization techniques.
+
+
+
+
