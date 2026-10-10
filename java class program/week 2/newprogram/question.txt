@@ -1,0 +1,22 @@
+i1=1274
+i2=5283
+i3=1937
+then pin=9174
+
+explanation:
+-the largest digit across all the int is 9-, so 9 is in thousands place
+-the smallest digit across the int is 1- so 1 is in the hundreds place
+-there are four digits - 1, 2 ,3 and 7 - occurs two times. The largest out of the is "7" so occupies the tens position of the pin.
+-there are four digits - 4, 5, 8 and 9 - occurs only ones. The smallest out of them is "4" so 4 occupies the units position in pin.
+
+
+2. have a single string "engineering" , check if char r is present or not, if yes print index.
+
+
+3.validation of an identier
+Input="regno24"
+output:yes
+input="$reg_no"
+output=yes
+    '1regno'-->ans:no  
+    'reg1no'-->ans:Yes
