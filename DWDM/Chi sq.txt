@@ -1,0 +1,11 @@
+boxplot(diabetesX)
+
+
+diabetes1<-table(diabetesX$Age,diabetesX$Insulin)
+diabetes1
+chisq.test(diabetesX)
+
+
+
+
+1 2 3 4 6 9
