@@ -1,0 +1,11 @@
+%%title -details
+@RELATION details
+@ATTRIBUTE ROLL_NO NUMERIC
+@ATTRIBUTE NAME string
+@ATTRIBUTE AGE NUMERIC
+@ATTRIBUTE MARKS NUMERIC
+@ATTRIBUTE STATUS {pass,fail} string
+@DATA
+	1,asd,43,34,pass
+	2,dfh,34,12,fail
+	5,dfg,12,74,pass

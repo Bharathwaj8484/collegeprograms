@@ -1,0 +1,18 @@
+@relation shopping
+@attribute milk{yes,no}
+@attribute bread{yes,no}
+@attribute honey{yes,no}
+@attribute ghee{yes,no}
+@attribute jam{yes,no}
+@data
+yes,yes,no,no,yes
+no,yes,no,yes,no
+no,yes,no,no,no
+yes,yes,no,yes,no
+yes,no,yes,no,no
+no,yes,yes,no,no
+yes,no,yes,no,no
+yes,yes,yes,no,no
+
+
+
