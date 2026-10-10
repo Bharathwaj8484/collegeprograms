@@ -1,0 +1,1 @@
+View(mean(diabetesX$Age))
